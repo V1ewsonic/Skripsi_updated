@@ -31,7 +31,7 @@ warnings.filterwarnings('ignore')
 # Fungsi untuk mengupload data ke website
 def data_load(datas):
 
-    ext = os.path.splitext(datas)[1].lower()
+    ext = os.path.splitext(datas.name)[1].lower()
 
     if ext == ".csv":
         data = pd.read_csv(datas)
@@ -612,5 +612,6 @@ if menu_sidebar == 'Hasil Analisis Sentimen':
     )
 
     
+
 
 
