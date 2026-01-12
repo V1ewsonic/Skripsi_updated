@@ -1,4 +1,5 @@
 #Import Library
+import os
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -29,8 +30,6 @@ warnings.filterwarnings('ignore')
 
 # Fungsi untuk mengupload data ke website
 def data_load(datas):
-    import pandas as pd
-    import os
 
     ext = os.path.splitext(datas)[1].lower()
 
@@ -613,4 +612,5 @@ if menu_sidebar == 'Hasil Analisis Sentimen':
     )
 
     
+
 
