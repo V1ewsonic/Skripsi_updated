@@ -18,3 +18,4 @@ tqdm==4.65.2
 tzlocal==2.1
 urllib3==1.26.16
 zipp==3.11.0
+openpyxl
