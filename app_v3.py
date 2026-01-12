@@ -376,7 +376,7 @@ if menu_sidebar == 'Topic Modeling - Komentar':
 
 #    Pengantar Halaman
      st.header('Panduan')
-     st.markdown('''1. Gunakan format file CSV \
+     st.markdown('''1. Gunakan format file CSV/Excel/JSON \
                  \n2. Pastikan kolom yang akan anda proses bertipe data _string_ atau _object_ \
                  \n3. Masukkan nama kolom yang akan di proses \
                  \n4. Klik tombol 'Latih Data' untuk mendapatkan hasil sentimen
@@ -425,7 +425,7 @@ if menu_sidebar == 'Clustering - Data Ordinal':
 
 #    Pengantar Halaman
     st.header('Panduan')
-    st.markdown('''1. Gunakan format file CSV \
+    st.markdown('''1. Gunakan format file CSV/Excel/JSON \
                  \n2. Pastikan kolom yang akan anda proses bertipe data _integer_ (angka) \
                  \n3. Pastikan file csv hanya berisikan kolom untuk hasil skala Likert \
                  \n4. Klik tombol 'Latih Data' untuk mendapatkan hasil _cluster_
@@ -612,6 +612,7 @@ if menu_sidebar == 'Hasil Analisis Sentimen':
     )
 
     
+
 
 
 
